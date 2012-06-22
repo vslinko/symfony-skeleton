@@ -16,6 +16,6 @@ With Doctrine ORM
 
     composer.phar create-project rithis/symfony-skeleton <target-directory> dev-orm
 
-With Doctrine ORM admin Sonata Admin
+With Doctrine ORM and Sonata Admin
 
     composer.phar create-project rithis/symfony-skeleton <target-directory> dev-admin
