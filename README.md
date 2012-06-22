@@ -2,11 +2,20 @@
 
 ## Installation
 
-    PROJECT_NAME=symfony-skeleton
-    git clone git://github.com/rithis/symfony-skeleton.git $PROJECT_NAME
-    cd $PROJECT_NAME
-    git remote set-url origin git://github.com/rithis/$PROJECT_NAME.git
-    git remote add symfony-skeleton git://github.com/rithis/symfony-skeleton.git
-    cp app/config/parameters.dist.yml app/config/parameters.yml
-    composer.phar install
-    ./app/console assets:install --symlink web
+### Install composer
+
+    curl -s http://getcomposer.org/installer | php
+
+### Install symfony skeleton
+
+Light version
+
+    composer.phar create-project rithis/symfony-skeleton <target-directory> dev-master
+
+With Doctrine ORM
+
+    composer.phar create-project rithis/symfony-skeleton <target-directory> dev-orm
+
+With Doctrine ORM admin Sonata Admin
+
+    composer.phar create-project rithis/symfony-skeleton <target-directory> dev-admin
