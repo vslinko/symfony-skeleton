@@ -1,5 +1,5 @@
 {
-    "hash": "004bdf2d5d71f0ab05ab15e2ff85da8b",
+    "hash": "51a09b2f04db1fc96c562f0cae976a6a",
     "packages": [
         {
             "package": "doctrine/common",
@@ -10,38 +10,36 @@
         {
             "package": "doctrine/common",
             "version": "dev-master",
-            "source-reference": "f0b548aa55bb7dac36d79061270a085dd38635b4"
+            "source-reference": "f0b548aa55bb7dac36d79061270a085dd38635b4",
+            "commit-date": "1340028847"
         },
         {
             "package": "monolog/monolog",
             "version": "1.1.0"
         },
         {
+            "package": "rithis/composer-handler",
+            "version": "dev-master",
+            "source-reference": "e3d418e001f8c4046f3691c5855a814490538a74",
+            "commit-date": "1340403116"
+        },
+        {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "a360ad61fe34206a7295c1ef00b5455b2b2e1071"
+            "source-reference": "a360ad61fe34206a7295c1ef00b5455b2b2e1071",
+            "commit-date": "1340305968"
         },
         {
             "package": "sensio/generator-bundle",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "sensio/generator-bundle",
-            "version": "dev-master",
-            "source-reference": "43ed45c48db18e4a0e48aec0c098f42e56e22d36"
+            "source-reference": "43ed45c48db18e4a0e48aec0c098f42e56e22d36",
+            "commit-date": "1340138445"
         },
         {
             "package": "symfony/monolog-bundle",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/monolog-bundle",
-            "version": "dev-master",
-            "source-reference": "0b5046d3d1ef93cd59ceabfa37de2665f5118c7f"
+            "source-reference": "0b5046d3d1ef93cd59ceabfa37de2665f5118c7f",
+            "commit-date": "1339708477"
         },
         {
             "package": "symfony/symfony",
@@ -52,7 +50,8 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA1"
+            "source-reference": "v2.1.0-BETA1",
+            "commit-date": "1340300540"
         },
         {
             "package": "twig/twig",
@@ -63,7 +62,8 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "4679ad51c5390648b7ea4c8f0ecd2c0c344145ba"
+            "source-reference": "4679ad51c5390648b7ea4c8f0ecd2c0c344145ba",
+            "commit-date": "1339959143"
         }
     ],
     "packages-dev": null,
@@ -75,6 +75,6 @@
         "symfony/symfony": 20,
         "symfony/monolog-bundle": 20,
         "sensio/generator-bundle": 20,
-        "sensio/distribution-bundle": 20
+        "rithis/composer-handler": 20
     }
 }

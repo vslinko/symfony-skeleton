@@ -19,21 +19,22 @@
         "symfony/symfony": "dev-master",
         "symfony/monolog-bundle": "dev-master",
         "sensio/generator-bundle": "dev-master",
-        "sensio/distribution-bundle": "dev-master"
+        "rithis/composer-handler": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "Rithis": "src"
+            "": "src"
         }
     },
     "scripts": {
         "post-install-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets"
+            "Rithis\\Composer\\ScriptHandler::touchParameters",
+            "Rithis\\Composer\\ScriptHandler::clearCache",
+            "Rithis\\Composer\\ScriptHandler::installAssets"
         ],
         "post-update-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets"
+            "Rithis\\Composer\\ScriptHandler::clearCache",
+            "Rithis\\Composer\\ScriptHandler::installAssets"
         ]
     },
     "extra": {
