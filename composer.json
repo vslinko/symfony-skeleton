@@ -30,6 +30,7 @@
             "": "src"
         }
     },
+    "minimum-stability": "dev",
     "scripts": {
         "post-install-cmd": [
             "Rithis\\Composer\\ScriptHandler::touchParameters",
