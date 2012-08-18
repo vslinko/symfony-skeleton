@@ -8,7 +8,7 @@ framework:
     templating: { engines: [twig] }
     form: ~
     csrf_protection: ~
-    session: { auto_start: true }
+    session: ~
     translator: ~
 
 doctrine:
