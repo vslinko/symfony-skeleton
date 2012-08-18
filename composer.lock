@@ -1,17 +1,11 @@
 {
-    "hash": "51a09b2f04db1fc96c562f0cae976a6a",
+    "hash": "bfd0a76db8be3d1f7f0bf9a5b05c77d5",
     "packages": [
         {
             "package": "doctrine/common",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "source-reference": "f0b548aa55bb7dac36d79061270a085dd38635b4",
-            "commit-date": "1340028847"
+            "version": "2.3.x-dev",
+            "source-reference": "2ec4bc6db13db6a0976a16b71058083c55cbcdbd",
+            "commit-date": "1343847076"
         },
         {
             "package": "monolog/monolog",
@@ -26,20 +20,20 @@
         {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "a360ad61fe34206a7295c1ef00b5455b2b2e1071",
-            "commit-date": "1340305968"
+            "source-reference": "bd98b5fb0e4a5dddb4f7acd2e11f28c4cd7eacee",
+            "commit-date": "1345139690"
         },
         {
             "package": "sensio/generator-bundle",
             "version": "dev-master",
-            "source-reference": "43ed45c48db18e4a0e48aec0c098f42e56e22d36",
-            "commit-date": "1340138445"
+            "source-reference": "d8fc1666f3cdb403f1b2d4320c45ddd6adbdf6a5",
+            "commit-date": "1343980150"
         },
         {
             "package": "symfony/monolog-bundle",
             "version": "dev-master",
-            "source-reference": "0b5046d3d1ef93cd59ceabfa37de2665f5118c7f",
-            "commit-date": "1339708477"
+            "source-reference": "aed4d742838d2a7350633fed7afe18dbfd3415de",
+            "commit-date": "1344949802"
         },
         {
             "package": "symfony/symfony",
@@ -50,20 +44,20 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA1",
-            "commit-date": "1340300540"
+            "source-reference": "7fe18d13a08d1c5cd28b70afdea81df6258e0600",
+            "commit-date": "1345278492"
         },
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "alias-pretty-version": "1.8.x-dev",
-            "alias-version": "1.8.9999999.9999999-dev"
+            "alias-pretty-version": "1.9.x-dev",
+            "alias-version": "1.9.9999999.9999999-dev"
         },
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "4679ad51c5390648b7ea4c8f0ecd2c0c344145ba",
-            "commit-date": "1339959143"
+            "source-reference": "3e4057b4b14a2f90db7c895e3e9bcbd3d23875e8",
+            "commit-date": "1345222881"
         }
     ],
     "packages-dev": null,
