@@ -5,7 +5,6 @@ set :repository, "git@github.com:rithis/#{application}.git"
 set :scm, :git
 
 set :shared_files, ["app/config/parameters.yml"]
-set :shared_children, ["app/logs", "web/uploads"]
 set :asset_children, []
 
 set :user, "www-data"
