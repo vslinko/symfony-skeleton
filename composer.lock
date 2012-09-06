@@ -1,74 +1,41 @@
 {
-    "hash": "bfd0a76db8be3d1f7f0bf9a5b05c77d5",
+    "hash": "e1a719224e216208752a5671565bbd2f",
     "packages": [
         {
             "package": "doctrine/common",
-            "version": "2.3.x-dev",
-            "source-reference": "2ec4bc6db13db6a0976a16b71058083c55cbcdbd",
-            "commit-date": "1343847076"
+            "version": "2.2.3"
         },
         {
             "package": "monolog/monolog",
-            "version": "1.1.0"
+            "version": "1.2.1"
         },
         {
             "package": "rithis/composer-handler",
-            "version": "dev-master",
-            "source-reference": "e3d418e001f8c4046f3691c5855a814490538a74",
-            "commit-date": "1340403116"
+            "version": "v2.1.0"
         },
         {
             "package": "sensio/distribution-bundle",
-            "version": "dev-master",
-            "source-reference": "bd98b5fb0e4a5dddb4f7acd2e11f28c4cd7eacee",
-            "commit-date": "1345139690"
-        },
-        {
-            "package": "sensio/generator-bundle",
-            "version": "dev-master",
-            "source-reference": "d8fc1666f3cdb403f1b2d4320c45ddd6adbdf6a5",
-            "commit-date": "1343980150"
+            "version": "v2.1.0"
         },
         {
             "package": "symfony/monolog-bundle",
-            "version": "dev-master",
-            "source-reference": "aed4d742838d2a7350633fed7afe18dbfd3415de",
-            "commit-date": "1344949802"
+            "version": "v2.1.0"
         },
         {
             "package": "symfony/symfony",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/symfony",
-            "version": "dev-master",
-            "source-reference": "7fe18d13a08d1c5cd28b70afdea81df6258e0600",
-            "commit-date": "1345278492"
+            "version": "v2.1.0"
         },
         {
             "package": "twig/twig",
-            "version": "dev-master",
-            "alias-pretty-version": "1.9.x-dev",
-            "alias-version": "1.9.9999999.9999999-dev"
-        },
-        {
-            "package": "twig/twig",
-            "version": "dev-master",
-            "source-reference": "3e4057b4b14a2f90db7c895e3e9bcbd3d23875e8",
-            "commit-date": "1345222881"
+            "version": "v1.9.2"
         }
     ],
     "packages-dev": null,
     "aliases": [
 
     ],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "symfony/symfony": 20,
-        "symfony/monolog-bundle": 20,
-        "sensio/generator-bundle": 20,
-        "rithis/composer-handler": 20
-    }
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
 }
