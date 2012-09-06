@@ -16,21 +16,19 @@
         "source": "https://github.com/rithis/symfony-skeleton"
     },
     "require": {
-        "symfony/symfony": "dev-master",
-        "symfony/monolog-bundle": "dev-master",
-        "sensio/generator-bundle": "dev-master",
-        "doctrine/doctrine-bundle": "dev-master",
-        "doctrine/doctrine-fixtures-bundle": "dev-master",
-        "doctrine/doctrine-migrations-bundle": "dev-master",
-        "sonata-project/doctrine-orm-admin-bundle": "dev-master",
-        "rithis/composer-handler": "dev-master"
+        "symfony/symfony": "2.1.*@stable",
+        "symfony/monolog-bundle": "2.1.*@stable",
+        "doctrine/doctrine-bundle": "1.0.*@RC",
+        "doctrine/doctrine-fixtures-bundle": "2.1.*@alpha",
+        "doctrine/doctrine-migrations-bundle": "@dev",
+        "sonata-project/doctrine-orm-admin-bundle": "@dev",
+        "rithis/composer-handler": "2.1.*@stable"
     },
     "autoload": {
         "psr-0": {
             "": "src"
         }
     },
-    "minimum-stability": "dev",
     "scripts": {
         "post-install-cmd": [
             "Rithis\\Composer\\ScriptHandler::touchParameters",
@@ -42,6 +40,7 @@
             "Rithis\\Composer\\ScriptHandler::installAssets"
         ]
     },
+    "minimum-stability": "dev",
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web"
