@@ -1,11 +1,11 @@
 {
-    "hash": "8c04ca02dfafac7db4fd36817f75c770",
+    "hash": "0ff75178170f4883cdaadc913739735e",
     "packages": [
         {
             "package": "doctrine/common",
             "version": "2.3.x-dev",
-            "source-reference": "2ec4bc6db13db6a0976a16b71058083c55cbcdbd",
-            "commit-date": "1343847076"
+            "source-reference": "605b1b8b5a7bc8daf9111fb35483e5708e30de35",
+            "commit-date": "1346249247"
         },
         {
             "package": "doctrine/data-fixtures",
@@ -16,26 +16,16 @@
         {
             "package": "doctrine/dbal",
             "version": "2.3.x-dev",
-            "source-reference": "6470e2089e9ab4a2d24e6927ebe073b7935d7ed5",
-            "commit-date": "1344980709"
+            "source-reference": "239630b61f03f39d198441eced1bfffb7b0e61d1",
+            "commit-date": "1346866589"
         },
         {
             "package": "doctrine/doctrine-bundle",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/doctrine-bundle",
-            "version": "dev-master",
-            "source-reference": "4d9bb0f3af470556983eb41a7d19ede23401ef0b",
-            "commit-date": "1344549563"
+            "version": "v1.0.0-RC1"
         },
         {
             "package": "doctrine/doctrine-fixtures-bundle",
-            "version": "dev-master",
-            "source-reference": "a5103a71bcd9b2f851ca6c16519a077784a3184a",
-            "commit-date": "1341472847"
+            "version": "v2.1.0-ALPHA"
         },
         {
             "package": "doctrine/doctrine-migrations-bundle",
@@ -51,55 +41,43 @@
         },
         {
             "package": "doctrine/orm",
-            "version": "dev-master",
-            "alias-pretty-version": "2.4.x-dev",
-            "alias-version": "2.4.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/orm",
-            "version": "dev-master",
-            "source-reference": "ece6a005bcecc4a9e4a154d9379cfbe141370415",
-            "commit-date": "1345069766"
+            "version": "2.3.0-RC3"
         },
         {
             "package": "monolog/monolog",
-            "version": "1.1.0"
+            "version": "dev-master",
+            "alias-pretty-version": "1.3.x-dev",
+            "alias-version": "1.3.9999999.9999999-dev"
+        },
+        {
+            "package": "monolog/monolog",
+            "version": "dev-master",
+            "source-reference": "a929570bb7688b39fefe4106f0ecf0ac35f37647",
+            "commit-date": "1346873566"
         },
         {
             "package": "rithis/composer-handler",
-            "version": "dev-master",
-            "source-reference": "e3d418e001f8c4046f3691c5855a814490538a74",
-            "commit-date": "1340403116"
+            "version": "v2.1.0"
         },
         {
             "package": "sensio/distribution-bundle",
-            "version": "dev-master",
-            "source-reference": "bd98b5fb0e4a5dddb4f7acd2e11f28c4cd7eacee",
-            "commit-date": "1345139690"
-        },
-        {
-            "package": "sensio/generator-bundle",
-            "version": "dev-master",
-            "source-reference": "d8fc1666f3cdb403f1b2d4320c45ddd6adbdf6a5",
-            "commit-date": "1343980150"
-        },
-        {
-            "package": "symfony/monolog-bundle",
-            "version": "dev-master",
-            "source-reference": "aed4d742838d2a7350633fed7afe18dbfd3415de",
-            "commit-date": "1344949802"
-        },
-        {
-            "package": "symfony/symfony",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
             "alias-version": "2.1.9999999.9999999-dev"
         },
         {
-            "package": "symfony/symfony",
+            "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "7fe18d13a08d1c5cd28b70afdea81df6258e0600",
-            "commit-date": "1345278492"
+            "source-reference": "v2.1.0",
+            "commit-date": "1346859132"
+        },
+        {
+            "package": "symfony/monolog-bundle",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "v2.1.0"
         },
         {
             "package": "twig/twig",
@@ -110,8 +88,8 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "3e4057b4b14a2f90db7c895e3e9bcbd3d23875e8",
-            "commit-date": "1345222881"
+            "source-reference": "459720ff3b74ee0c0d159277c6f2f5df89d8a4f6",
+            "commit-date": "1346397138"
         }
     ],
     "packages-dev": null,
@@ -120,13 +98,12 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "symfony/symfony": 20,
-        "symfony/monolog-bundle": 20,
-        "sensio/generator-bundle": 20,
-        "doctrine/orm": 20,
-        "doctrine/doctrine-bundle": 20,
-        "doctrine/doctrine-fixtures-bundle": 20,
+        "symfony/symfony": 0,
+        "symfony/monolog-bundle": 0,
+        "doctrine/orm": 5,
+        "doctrine/doctrine-bundle": 5,
+        "doctrine/doctrine-fixtures-bundle": 15,
         "doctrine/doctrine-migrations-bundle": 20,
-        "rithis/composer-handler": 20
+        "rithis/composer-handler": 0
     }
 }
