@@ -2,9 +2,9 @@ parameters:
     secret: ThisTokenIsNotSoSecretChangeIt
 
     database_driver: pdo_pgsql
-    database_host: localhost
+    database_host: 192.168.33.10
     database_port: ~
     database_name: symfony
-    database_user: root
+    database_user: postgres
     database_password: ~
     database_path: ~
