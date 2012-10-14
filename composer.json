@@ -35,9 +35,5 @@
             "Rithis\\Composer\\ScriptHandler::clearCache",
             "Rithis\\Composer\\ScriptHandler::installAssets"
         ]
-    },
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
     }
 }
