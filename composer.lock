@@ -1,5 +1,5 @@
 {
-    "hash": "3ea8e412e3f818adc33323128c9e72a5",
+    "hash": "8737ddf368c86bb3611c02bd527e9145",
     "packages": [
         {
             "name": "doctrine/common",
@@ -727,6 +727,53 @@
             ]
         },
         {
+            "name": "sensio/framework-extra-bundle",
+            "version": "v2.1.0",
+            "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensio/SensioFrameworkExtraBundle",
+                "reference": "v2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sensio/SensioFrameworkExtraBundle/zipball/v2.1.0",
+                "reference": "v2.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": "2.1.*",
+                "doctrine/common": ">=2.1,<2.4-dev"
+            },
+            "time": "2012-08-29 03:02:19",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Sensio\\Bundle\\FrameworkExtraBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle provides a way to configure your controllers with annotations",
+            "keywords": [
+                "annotations",
+                "controllers"
+            ]
+        },
+        {
             "name": "sonata-project/admin-bundle",
             "version": "dev-master",
             "target-dir": "Sonata/AdminBundle",
@@ -1204,6 +1251,7 @@
         "doctrine/doctrine-bundle": 0,
         "doctrine/doctrine-fixtures-bundle": 20,
         "doctrine/doctrine-migrations-bundle": 20,
+        "sensio/framework-extra-bundle": 0,
         "sonata-project/doctrine-orm-admin-bundle": 20,
         "rithis/composer-handler": 0
     }

@@ -27,6 +27,7 @@
         "doctrine/doctrine-bundle": "1.0.*@stable",
         "doctrine/doctrine-fixtures-bundle": "@dev",
         "doctrine/doctrine-migrations-bundle": "@dev",
+        "sensio/framework-extra-bundle": "2.1.*@stable",
         "sonata-project/doctrine-orm-admin-bundle": "@dev",
         "rithis/composer-handler": "2.1.*@stable"
     },
