@@ -1,5 +1,5 @@
 {
-    "hash": "e1a719224e216208752a5671565bbd2f",
+    "hash": "ec598af7f28f7958d812f7849ca0372d",
     "packages": [
         {
             "name": "doctrine/common",
@@ -166,7 +166,7 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v2.1.1",
+            "version": "2.1.x-dev",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
@@ -182,14 +182,14 @@
             "require": {
                 "symfony/framework-bundle": "2.1.*"
             },
-            "time": "2012-09-10 22:10:08",
+            "time": "1347340208",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Sensio\\Bundle\\DistributionBundle": ""
@@ -208,6 +208,53 @@
             "keywords": [
                 "distribution",
                 "configuration"
+            ]
+        },
+        {
+            "name": "sensio/framework-extra-bundle",
+            "version": "v2.1.0",
+            "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensio/SensioFrameworkExtraBundle",
+                "reference": "v2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sensio/SensioFrameworkExtraBundle/zipball/v2.1.0",
+                "reference": "v2.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": "2.1.*",
+                "doctrine/common": ">=2.1,<2.4-dev"
+            },
+            "time": "2012-08-29 03:02:19",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Sensio\\Bundle\\FrameworkExtraBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle provides a way to configure your controllers with annotations",
+            "keywords": [
+                "annotations",
+                "controllers"
             ]
         },
         {
