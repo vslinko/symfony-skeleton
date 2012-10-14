@@ -16,11 +16,16 @@
         "source": "https://github.com/rithis/symfony-skeleton"
     },
     "require": {
+        "twig/twig": "@stable",
+        "doctrine/common": "@stable",
+        "monolog/monolog": "@stable",
+        "doctrine/dbal": "@stable",
+
         "symfony/symfony": "2.1.*@stable",
         "symfony/monolog-bundle": "2.1.*@stable",
-        "doctrine/orm": "2.3.*@RC",
-        "doctrine/doctrine-bundle": "1.0.*@RC",
-        "doctrine/doctrine-fixtures-bundle": "2.1.*@alpha",
+        "doctrine/orm": "2.3.*@stable",
+        "doctrine/doctrine-bundle": "1.0.*@stable",
+        "doctrine/doctrine-fixtures-bundle": "@dev",
         "doctrine/doctrine-migrations-bundle": "@dev",
         "rithis/composer-handler": "2.1.*@stable"
     },
