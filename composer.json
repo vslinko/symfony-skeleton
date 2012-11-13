@@ -1,5 +1,7 @@
 {
     "name": "rithis/symfony-skeleton",
+    "description": "Symfony Skeleton created by Rithis Studio",
+    "keywords": ["rithis", "symfony", "skeleton"],
     "homepage": "https://github.com/rithis/symfony-skeleton",
     "license": "MIT",
     "authors": [
@@ -25,7 +27,7 @@
     },
     "autoload": {
         "psr-0": {
-            "": "src"
+            "Rithis": "src"
         }
     },
     "scripts": {
