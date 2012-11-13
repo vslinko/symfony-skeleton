@@ -16,10 +16,12 @@
         "source": "https://github.com/rithis/symfony-skeleton"
     },
     "require": {
+        "kriswallsmith/assetic": "@dev",
+
         "symfony/symfony": "2.1.*",
         "symfony/monolog-bundle": "2.1.*",
-        "sensio/framework-extra-bundle": "2.1.*",
-        "rithis/composer-handler": "2.1.*"
+        "symfony/assetic-bundle": "2.1.*",
+        "sensio/framework-extra-bundle": "2.1.*"
     },
     "autoload": {
         "psr-0": {
@@ -28,13 +30,16 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "Rithis\\Composer\\ScriptHandler::touchParameters",
-            "Rithis\\Composer\\ScriptHandler::clearCache",
-            "Rithis\\Composer\\ScriptHandler::installAssets"
+            "touch app/config/parameters.yml",
+            "php app/console cache:clear",
+            "php app/console assets:install",
+            "php app/console assetic:dump"
         ],
         "post-update-cmd": [
-            "Rithis\\Composer\\ScriptHandler::clearCache",
-            "Rithis\\Composer\\ScriptHandler::installAssets"
+            "touch app/config/parameters.yml",
+            "php app/console cache:clear",
+            "php app/console assets:install",
+            "php app/console assetic:dump"
         ]
     }
 }
